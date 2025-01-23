@@ -1,0 +1,141 @@
+/* Responsive Design Stylesheet */
+
+/* Base Responsive Typography */
+html {
+    font-size: 16px;
+}
+
+/* Large Screens */
+@media screen and (max-width: 1200px) {
+    html {
+        font-size: 15px;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    .container {
+        padding: 0 20px;
+    }
+}
+
+/* Medium Screens */
+@media screen and (max-width: 992px) {
+    nav ul {
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+    }
+
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .skills-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Tablet Screens */
+@media screen and (max-width: 768px) {
+    header p:first-of-type {
+        font-size: 3rem !important;
+    }
+
+    .social-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social-buttons a {
+        width: 80%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .skills-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .education-timeline {
+        padding: 0 10px;
+    }
+}
+
+/* Mobile Screens */
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .profile-img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .social-links a {
+        margin: 0 0.5rem;
+        font-size: 1.2rem;
+    }
+}
+
+/* Responsive Containers and Layout */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Flexible Media */
+img, video, iframe {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Responsive Text Adjustments */
+p, li {
+    max-width: 65ch;
+    line-height: 1.6;
+}
+
+/* Flexbox for Better Responsiveness */
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+/* Hide/Show Elements Responsively */
+@media screen and (max-width: 768px) {
+    .hide-on-mobile {
+        display: none;
+    }
+}
+
+/* Orientation Support */
+@media screen and (orientation: landscape) and (max-width: 992px) {
+    header {
+        height: auto;
+        padding: 2rem 1rem;
+    }
+}
