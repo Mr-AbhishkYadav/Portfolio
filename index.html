@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+    <style>
+        .social-buttons {
+            display: flex;
+            gap: 10px;
+            margin-top: 15px;
+        }
+        .social-buttons a {
+            text-decoration: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            color: white;
+            font-weight: bold;
+        }
+        .linkedin-btn {
+            background-color: #0077B5;
+        }
+        .github-btn {
+            background-color: #333;
+        }
+        #education {
+            background-color: #f4f4f4;
+            padding: 50px 0;
+        }
+        .education-timeline {
+            position: relative;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .education-item {
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header id="home">
+        <h1>Abhishek Yadav </h1>
+        <p>Web Developer | Part Time Trader </p>
+        <div class="social-buttons">
+            <a href="https://www.linkedin.com/in/abhishek-yadav-51a98b348/" target="_blank" class="linkedin-btn">
+                <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+            <a href="https://github.com/Mr-AbhishkYadav" target="_blank" class="github-btn">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="aa.jfif" alt="Profile Picture" class="profile-img">
+                <div class="about-text">
+                    <p>Hello! I'm a passionate web developer with a keen eye for design and a love for creating beautiful, functional websites.  I strive to build engaging digital experiences that leave a lasting impression.</p>
+                    <p>When I'm not coding, you can find me exploring new skills, or enjoying outdoor activities . </p>
+                    <p>Eager to learn new things , passionate about completing my task first.  </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section id="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="/api/placeholder/400/200" alt="Project 1" class="project-img">
+                    <div class="project-info">
+                        <h3>Project 1</h3>
+                        <p>Description of your amazing project goes here. Explain what you built and the technologies used.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="/api/placeholder/400/200" alt="Project 2" class="project-img">
+                    <div class="project-info">
+                        <h3>Project 2</h3>
+                        <p>Description of your amazing project goes here. Explain what you built and the technologies used.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="/api/placeholder/400/200" alt="Project 3" class="project-img">
+                    <div class="project-info">
+                        <h3>Project 3</h3>
+                        <p>Description of your amazing project goes here. Explain what you built and the technologies used.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML5</h3>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS3</h3>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-js"></i>
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-react"></i>
+                    <h3>React</h3>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-node"></i>
+                    <h3>Node.js</h3>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-git-alt"></i>
+                    <h3>Git</h3>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-java"></i>
+                    <h3>Java</h3>
+                </div>
+                <div class="skill-item">
+                    <i class="fab fa-python"></i>
+                    <h3>Python</h3>
+                </div>
+                <!-- sqlllllllllllllllllll -->
+                <div class="skill-item">
+                    <i class="fab fa-sql"></i>
+                    <h3>SQL</h3>
+
+                </div>
+                <!-- excel  -->
+                <div class="skill-item
+                ">
+                    <i class="fab fa-microsoft"></i>
+                    <h3>Excel</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="container">
+            <h2>Education & Certificates</h2>
+            <div class="education-timeline">
+                <div class="education-item">
+                    <h3>Bachelor of Technology in Computer Science</h3>
+                    <p>Galgotias University | 2022 - 2026</p>
+                    <b><p>CGPA: 7.5/10</p></b>
+                </div>
+                <div class="education-item">
+                    <h3>NPTEL - SOFTWARE ENGINEERING </h3>
+                    <p>Software Engineering  | Issued September 2024</p>
+                    <!-- add a button to het to my certifiacate link -->
+                    <div class="social-buttons">
+                        <a href="https://www.linkedin.com/in/abhishek-yadav-51a98b348/overlay/1737661584070/single-media-viewer/?profileId=ACoAAFb_gSYBt22ZMIOMQ_e03eTpNhU-dDY00jw" target="_blank" class="linkedin-btn">
+                            Visit 
+                        </a>
+                    </div>
+
+                </div>
+                <div class="education-item">
+                    <h3>Artifical Intelligence Certification </h3>
+                    <p>EduSkills Online Internship  | April - June ( 2024 ) </p>
+                    <div class="social-buttons">
+                        <a href="https://www.linkedin.com/in/abhishek-yadav-51a98b348/overlay/1737661678570/single-media-viewer/?profileId=ACoAAFb_gSYBt22ZMIOMQ_e03eTpNhU-dDY00jw/" target="_blank" class="linkedin-btn">
+                            Visit 
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <footer>
+        <p>&copy; Portfolio @ AbhishkYadav 
+
+        </p>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
